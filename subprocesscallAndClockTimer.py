@@ -16,11 +16,11 @@ def procedure():
 # measure process time
 t0 = time.clock()
 procedure()
-print time.clock(), "seconds process time"
+print (time.clock()), "seconds process time"
 
 # measure wall time
 while True:
     t0 = time.time()
     procedure()
-    print time.time() - t0, "Seconds wall time"
+    print (time.time()) - t0, "Seconds wall time"
     
